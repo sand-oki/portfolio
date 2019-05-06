@@ -37,6 +37,7 @@ section, article, aside, nav, header, main, footer {
 
 .heading h2 {
   font-size: 50px;
+  margin-bottom: 0;
 }
 
 .content {
@@ -93,14 +94,12 @@ h1 {
 /* フッター
 ------------------------------------------------------------- */
 footer {
-  background-color: #333;
   color: white;
-  height: 150px;
-
 }
 
 .footer-navi {
-  padding-top: 20px;
+  background-color: #939899;
+  padding: 20px 0;
 }
 
 .footer-navi ul {
@@ -117,7 +116,9 @@ footer {
 }
 
 .copyright {
+  background-color: #656c6e;
   text-align: center;
   font-size: 12px;
-  padding-top: 15px;
+  padding: 20px;
+  margin: 0;
 }
